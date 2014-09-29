@@ -1,0 +1,19 @@
+ header .jumbotron {
+  background: url('../images/goldengate.jpg');
+  background-position: center center;
+}
+
+.imagegrid ul, .imagegrid li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.imagegrid li {
+  float: left;
+  margin:5px;
+}
+.imagegrid li img {
+  max-width: 100px;
+  border-radius: 10px;
+}
