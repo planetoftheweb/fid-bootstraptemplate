@@ -1,3 +1,68 @@
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900");
+
+body {
+  background: #EEE8D5;
+  font-family: Merriweather, serif;
+  font-size: 1.7em;
+  line-height: 160%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bree Serif, serif;
+  font-weight: normal;
+  color: #1E9382;
+}
+
+a {
+  color: #1D806E;
+}
+
+a:hover {
+  color: #DF4848
+}
+
+
+.navbar {
+  border: none;
+}
+
+.navbar-default {
+  background: none;
+  box-shadow: none;
+  background: #EFC94C !important;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background: #DF4848;
+  color: #FFF; 
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background: #E27A3F;
+  color: #FFF; 
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-default a.navbar-brand {
+    color: #DF4848;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 8px 0;
+}
+
+.breadcrumb a {
+  color: #DF4848;
+}
+
+
  header .jumbotron {
   background-position: center center;
   background: url('../images/goldengate.jpg') no-repeat center center; 
@@ -5,6 +70,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 0;
 }
 
 .imagegrid ul, .imagegrid li {
@@ -21,3 +87,15 @@
   max-width: 100px;
   border-radius: 10px;
 }
+
+.carousel {
+  border: 10px solid #FFF;
+  -webkit-box-shadow: 0 0 20px #DDD;
+  -moz-box-shadow: 0 0 20px #DDD;
+  box-shadow: 0 0 20px #DDD;
+}
+
+.carousel .item {
+  max-height: 400px;
+}
+

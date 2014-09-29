@@ -3,26 +3,41 @@
 <head>
 <meta charset=utf-8 />
 <title>Ray's Website</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shadowbox.css"> 
 </head>
-<body id="home">
+<body id="skills">
 
 <header>
-    <h1>Ray Villalobos</h1>
-    <p><strong>email:</strong> ray@planetoftheweb.com</p>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="socialmedia.html">Social Media</a></li>
-            <li><a href="samples.html">Samples</a></li>
-        </ul>
-    </nav>    
+    <section class="jumbotron">
+        <div class="container">
+            <h1>Ray Villalobos</h1>
+            <p><strong>email:</strong> ray@planetoftheweb.com</p>
+        </div>
+    </section><!-- jumbotron -->
+
+    <nav class="navbar navbar-default" role="navigation">
+        <section class="container">
+            <div class="navbar-header">
+        <a class="navbar-brand" href="/">Ray Villalobos</a>
+            </div><!-- navbar-header -->
+            <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="socialmedia.html">Social Media</a></li>
+                    <li><a href="samples.html">Samples</a></li>
+            </ul>
+        </section>
+    </nav>
 </header>
 
-<section class="container">
-<h2>Skills</h2>
+
+<section class="main container">
+    <div class="row">
+        <div class="col-md-8"><h2>Skills</h2>
 <p>I'm a Staff Author at Lynda.com and love photography, design, development and teaching about the front end of the web.</p>
 <ul>
     <li>A leader with experience overseeing design and development teams of high profile websites for the Orlando Sentinel, NHL's Florida Panthers and a network of radio stations in the East Coast. Experience deploying cutting-edge online technologies like podcasting, RSS, radio simulcasting, audio, video, etc.</li>
@@ -31,19 +46,45 @@
     <li>Expert level knowledge of creative/interactive applications including: Flash, Photoshop, Illustrator, FireWorks and InDesign, on Macs and PCs.</li>
     <li>Strong interface designer with an emphasis on creativity, usability principles, information architecture, communication, navigation and the end-user experience.</li>
 </ul>
-</section>
+        </div>
+
+        <aside class="col-md-4">
+            <div class="imagegrid clearfix">
+            <h3>Work Samples</h3>
+                <ul class="clearfix">
+                    <li><a rel="shadowbox[samples]" href="images/carsad.jpg"><img src="images/carsad_tn.jpg" alt="Photo of carsad"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/carfans.jpg"><img src="images/carfans_tn.jpg" alt="Photo of carfans"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/jessica.jpg"><img src="images/jessica_tn.jpg" alt="Photo of jessica"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/jennifer.jpg"><img src="images/jennifer_tn.jpg" alt="Photo of jennifer"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/megalogo.png"><img src="images/megalogo_tn.png" alt="Photo of megalogo"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/enrique.jpg"><img src="images/enrique_tn.jpg" alt="Photo of enrique"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/franchy.jpg"><img src="images/franchy_tn.jpg" alt="Photo of franchy"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/eskimo.jpg"><img src="images/eskimo_tn.jpg" alt="Photo of eskimo"></a></li>
+                    <li><a rel="shadowbox[samples]" href="images/10thanniversary.jpg"><img src="images/10thanniversary_tn.jpg" alt="Photo of 10thanniversary"></a></li>
+                </ul>
+                <a href="samples.html">&raquo; More work samples</a>
+            </div>
+        </aside>
+    </div><!-- row -->
+</section><!-- main container -->
 
 <footer>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="socialmedia.html">Social Media</a></li>
-            <li><a href="samples.html">Samples</a></li>
-        </ul>
-    </nav>    
+    <section class="container">
+        <nav>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="socialmedia.html">Social Media</a></li>
+                <li><a href="samples.html">Samples</a></li>
+            </ul>
+        </nav>    
+    </section>
 </footer>
 
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/shadowbox.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
